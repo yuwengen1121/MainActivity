@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/background_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/ticket_from_station_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#474747"
+                android:textSize="20dp" 
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ticket_train_room_no_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#A3A3A3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/ticket_train_from_date_txt"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/ticket_train_from_time_txt"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#575757"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/train_on_the_page" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/ticket_to_station_txt"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#474747"
+                android:textSize="20dp" 
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_train_seat_no_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#A3A3A3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/ticket_train_to_time_txt"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/ticket_train_to_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#575757"
+                android:textSize="12dp"  />
+        </LinearLayout>
+    </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ticket_source_txt"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@color/text_date_gray"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_light_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/taxi" />
+
+        <TextView
+            android:id="@+id/taxi_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/train_taxi"
+             android:textColor="@color/text_taxi_red"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

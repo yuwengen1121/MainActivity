@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">票票</string>
+    <string name="sure_quit_app">再按一次后退按钮将退出应用</string>
+    <string name="sms_source">短信原文</string>
+    <string name="password">密码</string>
+    <string name="room">放映厅</string>
+    <string name="seat">座位</string>
+    <string name="business_address">地址</string>
+    <string name="map_btn">查看地图</string>
+    <string name="flight_btn">航班动态</string>
+    <string name="room_type">房间类型</string>
+    <string name="room_amount">房间数目</string>
+    <string name="night_amount">入住夜数</string>
+    <string name="hotel_phone">酒店电话</string>
+    <string name="hotel_address">酒店地址</string>
+    <string name="hotel_call">联系酒店</string>
+    <string name="group_password">验证密码</string>
+    <string name="group_valid_time">有效时间</string>
+    <string name="group_phone">商家电话</string>
+    <string name="group_address">商家地址</string>
+    <string name="group_call">联系商家</string>
+    <string name="train_from">出发地</string>
+    <string name="train_to">方向</string>
+    <string name="train_room_no">车厢</string>
+    <string name="train_seat_no">座位</string>
+    <string name="train_seat_type">席别</string>
+    <string name="train_taxi">嘀嘀打车</string>
+    <string name="load_data">(%1$d/%2$d)正在识别本地信息</string>
+</resources>

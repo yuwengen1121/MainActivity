@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_white">#F3F7FA</color>
+    <color name="background_gray">#E7ECF2</color>
+    <color name="text_dark">#2D2D2D</color>
+    <color name="text_darker">#484848</color>
+    <color name="text_light_gray">#AEAEAE</color>
+    <color name="text_more_gray">#17C6AF</color>
+    <color name="text_more_more_gray">#878787</color>
+    <color name="text_orange">#F4A520</color>
+    <color name="orange">#F39801</color>
+    <color name="red">#E74D4D</color>
+    <color name="yellow">#FDF6DC</color>
+    <color name="text_date_gray">#808080</color>
+    <color name="text_hotel_gray">#959595</color>
+    <color name="text_taxi_red">#D25453</color>
+    <color name="move">#B770AF</color>
+    <color name="groupby">#ECC67A</color>
+    <color name="flight">#43A8CF</color>
+    <color name="train">#D25452</color>
+    <color name="hotel">#91C551</color>
+   
+</resources>

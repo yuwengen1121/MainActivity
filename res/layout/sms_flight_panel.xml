@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background_white"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/ticket_fromCity_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_fromAirport_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/ticket_fromTime_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_fromDate_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_date_gray"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plane_on_the_page" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp"
+             >
+
+            <TextView
+                android:id="@+id/ticket_toCity_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                android:textSize="18dp"
+                   android:gravity="end"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_toAirport_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                   android:gravity="end"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/ticket_toDate_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark"
+                    android:gravity="end"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_toTime_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:gravity="end"
+                android:textColor="@color/text_date_gray"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ticket_airline_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/text_dark"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ticket_source_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@color/text_date_gray"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="48dp"
+        android:background="@color/text_light_gray" 
+        android:gravity="center">
+
+        <ImageView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plane_blue"
+            />
+        <TextView
+            android:id="@+id/flight_status_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            
+            android:text="@string/flight_btn"
+            android:textColor="@color/text_dark"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
